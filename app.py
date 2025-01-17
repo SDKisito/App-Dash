@@ -423,7 +423,7 @@ tabular_layout = html.Div(
 
 app.layout = html.Div(
     [
-        dmc.Group([html.H1("Plotly Figure Friday 2025 - Exploring NYC Marathon Data"), dmc.Button('Export Data', id='export-btn')], position='apart'),
+        dmc.Group([html.H1("Exploration des données du Marathon de New York 🎉"), dmc.Button('Export Data', id='export-btn')], position='apart'),
          dcc.Download(id="download-data"),
         dmc.Tabs(
             [
