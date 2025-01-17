@@ -1,4 +1,5 @@
 import dash_mantine_components as dmc
+from dash_mantine_components import Text
 from dash_iconify import DashIconify
 from dash import html, dcc, callback, Input, Output
 import dash
@@ -8,7 +9,7 @@ import plotly.express as px
 import io
 from datetime import datetime, time
 from dateutil.relativedelta import relativedelta
-
+Text("Hello, World!", fw=500)  # Utilise 'fw' au lieu de 'weight'
 app = dash.Dash(__name__)
 
 df = pd.read_csv(r"NYC Marathon Results, 2024 - Marathon Runner Results.csv")
