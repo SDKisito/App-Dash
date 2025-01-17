@@ -1,0 +1,7 @@
+dash
+dash-mantine-components
+dash-iconify
+pandas
+dash-ag-grid
+plotly
+python-dateutil
