@@ -1,5 +1,5 @@
 dash
-dash-mantine-components
+dash-mantine-components>=0.16.0
 dash-iconify
 pandas
 dash-ag-grid
