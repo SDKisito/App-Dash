@@ -5,3 +5,4 @@ pandas
 dash-ag-grid
 plotly
 python-dateutil
+gunicorn
